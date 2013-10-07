@@ -1,0 +1,60 @@
+body {
+  padding-top: 50px;  /* Move body of page below navbar. */
+  margin-top: 30px;
+  
+}
+
+.collapse.navbar-collapse {
+  max-height: 320px;
+}
+.container {
+  max-width: 900px;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+.navbar.navbar-inverse.navbar-fixed-top {
+  background-image: url("../images/bg.jpg");
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #E5EEDD;
+  margin-right: 15px;
+}
+
+.nav.navbar-nav {
+  font-size: 25px;
+  height: 81px;
+  padding-top: 20px;
+}
+
+.page-content {
+  background-size:cover;
+  background-position: center;
+  height: 385px;
+  background-image: url("../images/canoes.jpg");
+}
+
+
+.page-footer {
+background-color: #000;
+height: 131px;
+text-align: center;
+}
+
+.page-footer h2 {
+  font-family: Georgia,'Times New Roman', Times;
+  font-size: 3em;
+  padding: 1em 0 0 0;
+  margin: 0;
+  color: #666;
+  text-align: center;
+  font-weight: 700;
+  text-shadow: 0 0 0 #000;
+}
+img {
+  float: left;
+  padding-right: 5px;
+}
+
